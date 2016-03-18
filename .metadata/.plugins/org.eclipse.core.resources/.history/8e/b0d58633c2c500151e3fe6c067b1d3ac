@@ -1,0 +1,8 @@
+<%
+	//获取请求参数
+	String name=request.getParameter("user");
+	String pwd=request.getParameter("pwd");
+
+
+
+%>

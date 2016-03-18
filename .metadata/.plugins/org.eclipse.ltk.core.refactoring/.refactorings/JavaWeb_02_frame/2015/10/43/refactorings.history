@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaWeb_02_frame/WebContent/1/Frame1.html&apos; to &apos;index.html&apos;" description="Rename resource &apos;Frame1.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/1/Frame1.html" name="index.html" stamp="1445685622272" updateReferences="true"/>
+</session>

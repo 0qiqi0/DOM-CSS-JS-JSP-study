@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Sat Jan 30 14:03:24 CST 2016
+org.eclipse.jst.j2ee.server\:JSP2_03_form_trasmit=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP2_03_form_trasmit
+org.eclipse.jst.j2ee.server\:JSP2_02_inner_obj=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP2_02_inner_obj
+org.eclipse.jst.j2ee.server\:JSP_01=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP_01
+org.eclipse.jst.jee.server\:JSP_03_tabletransition=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP_03_tabletransition
+org.eclipse.jst.jee.server\:JSP_02=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP_02
+org.eclipse.jst.j2ee.server\:JSP2_01=E\:\\software\\tomcat\\apache-tomcat-7.0.65-windows-x86\\apache-tomcat-7.0.65\\webapps\\JSP2_01

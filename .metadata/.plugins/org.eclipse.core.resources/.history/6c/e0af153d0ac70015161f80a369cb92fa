@@ -1,0 +1,41 @@
+package com.gqz.dao.inpl;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import com.gqz.dao.TeacherDao;
+import com.gqz.model1.Teacher;
+
+public class TeacherDaoInpl implements TeacherDao {
+
+	@Override
+	public void add(Teacher t) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(int tid) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Teacher t) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void findById(int tid) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Teacher> findAll() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

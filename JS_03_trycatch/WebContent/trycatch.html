@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function trycatchdemo(){
+		try{
+			alert("test");
+			add();
+		}catch(e){
+			//innerHTML在JS是双向功能：获取对象的内容 或 向对象插入内容；如：<div id="aa">这是内容</div> ，
+			//我们可以通过 document.getElementById('aa').innerHTML 来获取id为aa的对象的内嵌内容；
+			//也可以对某对象插入内容，如 document.getElementById('abc').innerHTML='这是被插入的内容'; 这样就能向id为abc的对象插入内容。
+			document.getElementById("err").innerHTML=e.message;
+		}
+	}
+	function throwsdemo(){
+		var age=document.getElementById("age").value;
+		
+		try{
+			if(age=="") throw "年龄不鞥为空";
+			else if(isNaN(age)) throw "请输入数字";
+			else if(age<18) throw "年龄太小";
+			else if(age>100) throw "年龄太大";
+				
+		}catch(e){
+			document.getElementById("err").innerHTML=e;
+		}
+		
+	}
+
+</script>
+</head>
+<body>
+<input type="button" value="try/catch" onclick="trycatchdemo()"/>
+<br/>
+<div id="err"> </div>
+
+请输入年龄：<input type="text" id="age"/>
+<input type="button" value="throw测试" onclick="throwsdemo()"/>
+</body>
+</html>

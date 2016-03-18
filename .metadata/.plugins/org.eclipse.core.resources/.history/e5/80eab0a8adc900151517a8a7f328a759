@@ -1,0 +1,19 @@
+package com.gqz.dao;
+
+import java.util.List;
+import java.sql.SQLException;
+
+import com.gqz.model1.Teacher;
+//DAO½è¿Ú
+public interface TeacherDao {
+	public void add(Teacher t) throws SQLException;
+
+
+	public void delete(int tid) throws SQLException;
+	
+	public void update(Teacher t) throws SQLException;
+
+	public void findById(int tid) throws SQLException;
+
+	public List<Teacher> findAll() throws SQLException;
+}

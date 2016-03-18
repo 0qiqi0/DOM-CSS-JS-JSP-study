@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;11.jpg&apos; to &apos;WebContent&apos;" description="Move &apos;11.jpg&apos; to &apos;WebContent&apos;" destination="WebContent" element1="/JavaWeb_05_imagelable/WebContent/11.jpg" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1445950418732" updateReferences="true"/>
+</session>

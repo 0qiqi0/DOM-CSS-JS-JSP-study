@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+ <!-- math对象和String对象.ps：没写在函数里时候，顺序执行，下面的div还没生成，所以没反应 -->
+
+</head>
+<body> 
+	<div id="div1"> </div>   
+	<script type="text/javascript">
+	var str = "java.lampbroth.net";   
+//var str =new String("www.baidu.com"); math对象不能用new创建，由引擎直接创建
+	var len =str.length;
+	var upperStr= str.toUpperCase();
+	document.getElementById("div1").innerHTML=upperStr;
+	var s1= str.charAt(1);
+	document.getElementById("div1").innerHTML=s1;
+	var index=str.indexOf("mp")
+	document.getElementById("div1").innerHTML=index;
+	var s2=str.substring(0,  4);
+	document.getElementById("div1").innerHTML=s2;
+	var s3=str.split(".");  //s3是一个字符串数组
+	for (var x in s3){
+		document.write(s3[x] +"<br/>");
+	}
+	
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<%
+	//获取请求参数
+	String name=request.getParameter("user");
+	String pwd=request.getParameter("pwd");
+	
+	if("xb".equals(name)&&"123".equals(pwd)){
+		out.println("登录成功");
+	}
+
+
+%>

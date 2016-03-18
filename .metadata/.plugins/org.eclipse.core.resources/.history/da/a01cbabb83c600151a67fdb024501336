@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String name=request.getParameter("user");
+	String pwd=request.getParameter("pwd");
+	
+	if("admin".equals(name) && "123".equals(pwd)){
+		//把用户信息存储到session中
+		session.setAttribute("name",name);
+		response.sendRedirect("session_success.jsp");
+	}else{
+		response.sendRedirect("out.jsp");
+	}
+	
+%>

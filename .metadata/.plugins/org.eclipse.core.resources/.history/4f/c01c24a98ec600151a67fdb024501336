@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JSP2_03_form_trasmit">
+        <property name="context-root" value="JSP2_03_form_trasmit"/>
+    </wb-module>
+</project-modules>

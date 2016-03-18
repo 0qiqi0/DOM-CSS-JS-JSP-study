@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;JS_10_hquerydocumentCZ&apos; to &apos;JS_10_jqueryCSS&apos;" description="Rename resource &apos;JS_10_hquerydocumentCZ&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JS_10_hquerydocumentCZ" name="JS_10_jqueryCSS" stamp="1446347216120" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JS_10_jqueryCSS&apos; to &apos;JS_10_jqueryUI&apos;" description="Rename resource &apos;JS_10_jqueryCSS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JS_10_jqueryCSS" name="JS_10_jqueryUI" stamp="1446347846925" updateReferences="true"/>
+</session>

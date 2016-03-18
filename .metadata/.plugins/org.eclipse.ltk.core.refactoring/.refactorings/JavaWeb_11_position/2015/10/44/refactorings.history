@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaWeb_11_position/WebContent/positio.html&apos; to &apos;positio2.html&apos;" description="Rename resource &apos;positio.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/positio.html" name="positio2.html" stamp="1445954413410" updateReferences="true"/>
+</session>

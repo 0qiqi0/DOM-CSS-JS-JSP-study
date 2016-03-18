@@ -1,0 +1,38 @@
+package com.gqz.dao.inpl;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import com.gqz.dao.TeacherDao;
+import com.gqz.model1.Teacher;
+//dao接口的实现类
+public class TeacherDaoInpl implements TeacherDao {
+
+	private JdbcTemplete jdbcTemplete;
+	public TeacherDaoInpl(){
+		 jdbcTemplete= new JdbcTemplete();
+	}
+	
+	public void add(Teacher t) throws SQLException {
+		String sql="insert into teacher(name,description,age) values(?,?,?)";
+		jdbcTemplete.update(sql,t.getName(),t.getDescription(),t.getAge());
+	}
+
+	public void delete(int tid) throws SQLException {
+
+	}
+
+	public void update(Teacher t) throws SQLException {
+
+	}
+
+	public void findById(int tid) throws SQLException {
+
+	}
+
+	@Override
+	public List<Teacher> findAll() throws SQLException {
+		return null;
+	}
+
+}

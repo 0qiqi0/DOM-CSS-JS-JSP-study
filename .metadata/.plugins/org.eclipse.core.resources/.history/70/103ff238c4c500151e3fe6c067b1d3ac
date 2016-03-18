@@ -1,0 +1,13 @@
+<%
+	//获取请求参数
+	request.setCharacterEncoding("UTF-8");
+	String name=request.getParameter("user");
+	String pwd=request.getParameter("pwd");
+	
+	if("xb".equals(name)&&"123".equals(pwd)){
+		out.println("登录成功");
+	}else
+		out.println("登录失败");
+
+
+%>

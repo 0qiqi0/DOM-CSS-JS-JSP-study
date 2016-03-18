@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <p id="example" style="color:grey;font-family:'Arial',sans-serif;font-size:10px">中兴</p>
+  <p>华为</p>
+   <p>上海贝尔</p>
+   
+   <script>
+   		var para=document.getElementsByTagName("p");
+   		var para1=document.getElementById("example");
+   		alert(typeof para1.nodeName);
+   		alert(typeof para1.style);
+   		for(var i=0;i<para.length;i++){
+   			para[i].onclick=function(){
+   				alert("thease are tele company");
+   				//console.log("thease are tele company");
+   			}
+   		}
+   		
+   		window.onload=function(){
+   			var para=document.getElementById("example");
+   			alert("p's font-family is" + para.style.fontFamily);
+   			alert("p's font-family is" + para.style.fontSize);
+   		}
+   </script>
+</body>
+</html>

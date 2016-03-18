@@ -1,0 +1,28 @@
+package com.gqz.util.db;
+import java.sql.SQLException;
+import com.gqz.jdbcTool.DBUtils;
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+public class JdbcTemplate {
+	//增删改的抽象
+	public int update(String sql,Object...args){
+		Connection conn =null;
+		PreparedStatement ps=null;
+		try{
+			conn=DBUtils.getConnection();
+			ps=(PreparedStatement) conn.prepareStatement(sql);
+			//设置占位符的参数
+			if(args!=null){
+				for(int i=0; i<args.length;i++){
+					ps.setObject(i+1, args[i]);
+				}
+			}
+			return ps.executeUpdate();
+		}catch(SQLException e){
+			e.printStackTrace();
+			return -1;
+		}finally{
+			DBUtils.close(null, ps, conn);
+		}
+	}
+}

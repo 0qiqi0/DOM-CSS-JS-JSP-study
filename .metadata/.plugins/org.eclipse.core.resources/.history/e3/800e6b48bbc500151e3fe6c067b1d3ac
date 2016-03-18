@@ -1,0 +1,5 @@
+package com.gqz.bean;
+
+public class Person {
+
+}
